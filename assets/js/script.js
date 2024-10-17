@@ -39,27 +39,6 @@ $(document).ready(function () {
       "linear"
     );
   });
-
-  // <!-- emailjs to mail contact form data -->
-  $("#contact-form").submit(function (event) {
-    emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-    emailjs
-      .sendForm("contact_service", "template_contact", "#contact-form")
-      .then(
-        function (response) {
-          console.log("SUCCESS!", response.status, response.text);
-          document.getElementById("contact-form").reset();
-          alert("Form Submitted Successfully");
-        },
-        function (error) {
-          console.log("FAILED...", error);
-          alert("Form Submission Failed! Try Again");
-        }
-      );
-    event.preventDefault();
-  });
-  // <!-- emailjs to mail contact form data -->
 });
 
 document.addEventListener("visibilitychange", function () {
@@ -123,20 +102,14 @@ function showProjects(projects) {
         <div class="desc">
           <p>${project.desc}</p>
           <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i>Visiter</a>
+            
           </div>
         </div>
       </div>
     </div>`;
     });
   projectsContainer.innerHTML = projectHTML;
-
-  // <!-- tilt js effect starts -->
-  VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 15,
-  });
-  // <!-- tilt js effect ends -->
 
   /* ===== SCROLL REVEAL ANIMATION ===== */
   const srtop = ScrollReveal({
@@ -174,10 +147,6 @@ srtop.reveal(".home .content .btn", { delay: 200 });
 srtop.reveal(".home .image", { delay: 400 });
 srtop.reveal(".home .linkedin", { interval: 600 });
 srtop.reveal(".home .github", { interval: 800 });
-/*srtop.reveal(".home .twitter", { interval: 1000 });
-srtop.reveal(".home .telegram", { interval: 600 });
-srtop.reveal(".home .instagram", { interval: 600 });
-srtop.reveal(".home .dev", { interval: 600 });*/
 
 /* SCROLL ABOUT */
 srtop.reveal(".about .content h3", { delay: 200 });

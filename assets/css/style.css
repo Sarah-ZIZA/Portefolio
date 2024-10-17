@@ -749,11 +749,11 @@ header .navbar ul li a:hover {
   border-radius: 0.5rem;
   font-size: 1.5rem;
   color: #fff;
-  background: rgb(12, 12, 12);
+  background: #c747d2;
   margin-right: 2rem;
 }
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: #3b3945;
 }
 .work .viewall {
   display: flex;
