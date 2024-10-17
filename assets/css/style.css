@@ -130,7 +130,7 @@ header .navbar ul li a:hover {
   color: rgb(24, 2, 63);
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #menu {
     display: block;
   }
@@ -530,6 +530,36 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
+@media screen and (max-width: 1200px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    width: 95%; /* Par exemple, ajustement pour les écrans moyens */
+  }
+
+  .skills .container .row {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Exemple : 3 colonnes pour cette taille d'écran */
+    margin: 1rem;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    gap: 1rem;
+  }
+}
+
 /* skills media queries ends*/
 /* skills section ends */
 
