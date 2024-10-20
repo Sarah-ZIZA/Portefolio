@@ -11,12 +11,12 @@
   },
 
   {
-    "name": "",
-    "desc": "",
-    "image": "",
-    "category": "",
+    "name": "Jeux de Mémoire Symson",
+    "desc": "Trouver tous les couples de cartes et la partie est gagnée",
+    "image": "JeuxMemoire",
+    "category": "JS",
     "links": {
-      "view": "",
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/carte/",
       "code": ""
     }
   },
