@@ -1,11 +1,21 @@
 [
   {
-    "name": "L'univert de Freyah",
-    "desc": "Site e-commerce en HTML/CSS/JS",
-    "image": "Univertfreyah",
+    "name": "LPSF-clinique",
+    "desc": "Ce site présente la Clinique LPFS, un établissement fictif créé dans le cadre de notre immersion professionnelle.Développé en collaboration avec Julien Gosselet",
+    "image": "LPFS",
     "category": "Site",
     "links": {
-      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/",
+      "view": "https://youtu.be/68iLVfyCFeI",
+      "code": ""
+    }
+  },
+  {
+    "name": "Fisher Collect",
+    "desc": "Ce site vitrine marque mon tout premier projet en première année de BTS.Les images utilisées dans ce site vitrine sont uniquement à des fins illustratives pour ce projet pédagogique.",
+    "image": "Sitevitrine",
+    "category": "Site",
+    "links": {
+      "view": "https://youtu.be/QNyNqcdtRVQ",
       "code": ""
     }
   },
@@ -20,23 +30,14 @@
       "code": ""
     }
   },
+
   {
-    "name": "",
-    "desc": "",
-    "image": "",
-    "category": "",
-    "links": {
-      "view": "",
-      "code": ""
-    }
-  },
-  {
-    "name": "",
-    "desc": "",
-    "image": "",
+    "name": "Site Coworking",
+    "desc": "Ce site a été entièrement conçu au cours de ma période de stage chez Clamart Service. Il reflète fidèlement l’atmosphère chaleureuse et accueillante de l’espace de travail proposé par l’entreprise. Chaque page a été pensée pour mettre en avant le confort et la convivialité qui caractérisent Clamart Service, offrant ainsi une expérience digitale à l’image de leur philosophie d’accueil.",
+    "image": "CoworkigClamart",
     "category": "Site",
     "links": {
-      "view": "",
+      "view": "https://coworking-cambrai.com/",
       "code": ""
     }
   }
