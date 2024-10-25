@@ -32,6 +32,17 @@
   },
 
   {
+    "name": "Calculatrice",
+    "desc": "Calculatrice inspirer de la calculatrice iphone",
+    "image": "calculatrice",
+    "category": "JS",
+    "links": {
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/calculatrice/",
+      "code": ""
+    }
+  },
+
+  {
     "name": "Site Coworking",
     "desc": "Ce site a été entièrement conçu au cours de ma période de stage chez Clamart Service. Il reflète fidèlement l’atmosphère chaleureuse et accueillante de l’espace de travail proposé par l’entreprise. Chaque page a été pensée pour mettre en avant le confort et la convivialité qui caractérisent Clamart Service, offrant ainsi une expérience digitale à l’image de leur philosophie d’accueil.",
     "image": "CoworkigClamart",
