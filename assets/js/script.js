@@ -103,7 +103,7 @@ function showProjects(projects) {
     .forEach((project) => {
       projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="../assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -181,3 +181,32 @@ srtop.reveal(".experience .timeline .container", { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
+
+// EmailJS SDK
+
+document.addEventListener("DOMContentLoaded", function () {
+  emailjs.init("mEVkWNktYXFq74I_n"); // "YOUR_USER_ID" l'API key publique EmailJS
+
+  document
+    .getElementById("contact-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      // Récupérer les données du formulaire
+      const serviceID = "service_fo5az9r"; //  votre identifiant de service EmailJS
+      const templateID = "template_wgy6x8s"; // votre identifiant de modèle EmailJS
+
+      emailjs.sendForm(serviceID, templateID, this).then(
+        () => {
+          alert("Votre demande de contact a été prise en compte.");
+          document.getElementById("contact-form").reset();
+        },
+        (err) => {
+          alert(
+            "Une erreur est survenue lors de l'envoi du message : " +
+              JSON.stringify(err)
+          );
+        }
+      );
+    });
+});

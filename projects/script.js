@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Projets | Portfolio sarah";
+    document.title = "Portfolio SARAH";
     $("#favicon").attr("href", "assets/images/AVATAR.png");
   } else {
     document.title = "Retour sur mon Portfolio";

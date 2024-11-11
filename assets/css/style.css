@@ -975,6 +975,7 @@ header .navbar ul li a:hover {
   min-height: 60vh;
 }
 .contact .container {
+  text-transform: none;
   max-width: 1050px;
   width: 100%;
   background: #ffffff9a;
@@ -1002,6 +1003,9 @@ header .navbar ul li a:hover {
   width: 45%;
   margin-right: 3.5rem;
 }
+#contact-form {
+  text-transform: none;
+}
 form .form-group {
   display: flex;
   flex-direction: column;
@@ -1025,6 +1029,7 @@ form i {
 }
 form .field input,
 form .message textarea {
+  text-transform: none;
   width: 100%;
   height: 100%;
   outline: none;
