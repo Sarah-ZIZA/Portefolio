@@ -73,15 +73,24 @@ async function fetchData(type = "skills") {
 function showSkills(skills) {
   let skillsContainer = document.getElementById("skillsContainer");
   let skillHTML = "";
+
   skills.forEach((skill) => {
     skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`;
+      <div class="bar">
+        <div class="info">
+          <img src="${skill.icon}" alt="skill" />
+          <span>${skill.name}</span>`;
+
+    // Ajout du lien seulement si la compétence en possède un
+    if (skill.link) {
+      skillHTML += `<a href="${skill.link}"><span>${skill.linkText}</span></a>`;
+    }
+
+    skillHTML += `
+        </div>
+      </div>`;
   });
+
   skillsContainer.innerHTML = skillHTML;
 }
 
@@ -90,11 +99,11 @@ function showProjects(projects) {
   let projectHTML = "";
   projects
     .slice(0, 10)
-    .filter((project) => project.category != "android")
+    .filter((project) => project.category != "TP")
     .forEach((project) => {
       projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="../assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>

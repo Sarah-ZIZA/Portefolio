@@ -3,7 +3,7 @@
     "name": "LPSF-clinique",
     "desc": "Ce site présente la Clinique LPFS, un établissement fictif créé dans le cadre de notre immersion professionnelle.Développé en collaboration avec Julien Gosselet",
     "image": "LPFS",
-    "category": "Site",
+    "category": "AP",
     "links": {
       "view": "https://youtu.be/68iLVfyCFeI",
       "code": ""
@@ -13,7 +13,7 @@
     "name": "Fisher Collect",
     "desc": "Ce site vitrine marque mon tout premier projet en première année de BTS.Les images utilisées dans ce site vitrine sont uniquement à des fins illustratives pour ce projet pédagogique.",
     "image": "Sitevitrine",
-    "category": "Site",
+    "category": "TP DEV",
     "links": {
       "view": "https://youtu.be/QNyNqcdtRVQ",
       "code": ""
@@ -24,7 +24,7 @@
     "name": "Jeux de Mémoire Symson",
     "desc": "Trouver tous les couples de cartes et la partie est gagnée",
     "image": "JeuxMemoire",
-    "category": "JS",
+    "category": "js",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/carte/",
       "code": ""
@@ -35,7 +35,7 @@
     "name": "Calculatrice",
     "desc": "Calculatrice inspirer de la calculatrice iphone",
     "image": "calculatrice",
-    "category": "JS",
+    "category": "js",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/calculatrice/",
       "code": ""

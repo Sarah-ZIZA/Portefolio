@@ -1,5 +1,11 @@
 [
   {
+    "name": "Compétences_T",
+    "icon": "https://img.icons8.com/fluency/48/whiteboard.png",
+    "link": "Tableau_E4_ZIZA_KANGUE_Sarah.pdf",
+    "linkText": "Voir le tableau"
+  },
+  {
     "name": "Bootstrap",
     "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
   },
