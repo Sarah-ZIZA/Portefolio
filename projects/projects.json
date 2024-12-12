@@ -50,5 +50,15 @@
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/cassebrique/",
       "code": ""
     }
+  },
+  {
+    "name": "Mastermind",
+    "desc": " TP Jeu Mastermind",
+    "image": "Mastermind",
+    "category": "JS",
+    "links": {
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Mastermind/",
+      "code": ""
+    }
   }
 ]
