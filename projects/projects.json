@@ -13,13 +13,22 @@
     "name": "Fisher Collect",
     "desc": "Ce site vitrine marque mon tout premier projet en première année de BTS.Les images utilisées dans ce site vitrine sont uniquement à des fins illustratives pour ce projet pédagogique.",
     "image": "Sitevitrine",
-    "category": "TP DEV",
+    "category": "TP",
     "links": {
       "view": "https://youtu.be/QNyNqcdtRVQ",
       "code": ""
     }
   },
-
+  {
+    "name": "Mastermind",
+    "desc": " TP Jeu Mastermind",
+    "image": "Mastermind",
+    "category": "js",
+    "links": {
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Mastermind/",
+      "code": ""
+    }
+  },
   {
     "name": "Jeux de Mémoire Symson",
     "desc": "Trouver tous les couples de cartes et la partie est gagnée",
@@ -32,12 +41,12 @@
   },
 
   {
-    "name": "Calculatrice",
-    "desc": "Calculatrice inspirer de la calculatrice iphone",
-    "image": "calculatrice",
-    "category": "js",
+    "name": "Univert_de_freyah",
+    "desc": "Site Vitrine",
+    "image": "Univert.png",
+    "category": "basicweb",
     "links": {
-      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/calculatrice/",
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Univert_de_freyah/",
       "code": ""
     }
   },
@@ -45,7 +54,7 @@
     "name": "Casse_briques",
     "desc": "Jeu de casse Brique inspirer d'un Tuto",
     "image": "cassebrique",
-    "category": "JS",
+    "category": "js",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/cassebrique/",
       "code": ""
@@ -55,7 +64,7 @@
     "name": "Mastermind",
     "desc": " TP Jeu Mastermind",
     "image": "Mastermind",
-    "category": "JS",
+    "category": "TP",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Mastermind/",
       "code": ""
