@@ -16,6 +16,14 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+/* Par défaut, le mode clair est appliqué */
+
+/* Mode sombre */
+body.dark-mode {
+  background: #121212;
+  color: #fff;
+}
+
 body {
   background: #f7f7f7;
   font-family: "Poppins", sans-serif;
@@ -121,6 +129,18 @@ header .navbar ul li a:hover {
   border-bottom: 0.2rem solid #e58fec;
   padding: 0.5rem 0;
 }
+/* Exemple de styles pour le header */
+body.dark-mode header {
+  background-color: #333;
+  color: #fff;
+}
+body.dark-mode header a {
+  color: #fff;
+}
+
+body.dark-mode header .navbar a {
+  color: #fff;
+}
 /* navbar ends */
 
 /* hamburger icon starts*/
@@ -144,6 +164,9 @@ header .navbar ul li a:hover {
     align-items: flex-start;
     background-color: white;
   }
+  body.dark-mode header .navbar {
+    background-color: #333;
+  }
   header .navbar ul {
     flex-flow: column;
     padding: 1rem;
@@ -162,6 +185,9 @@ header .navbar ul li a:hover {
     color: #0e2431;
     font-size: 2rem;
   }
+  body.dark-mode .navbar ul li a {
+    color: #ddd;
+  }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
@@ -169,8 +195,19 @@ header .navbar ul li a:hover {
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid #e58fec;
   }
+  body.dark-mode header .navbar ul li a.active,
+  body.dark-mode header .navbar ul li a:hover {
+    padding: 1rem;
+    color: #a506adba;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid #a506adba;
+  }
   .fa-times {
     transform: rotate(180deg);
+  }
+  body.dark-mode .fa-times {
+    transform: rotate(180deg);
+    color: #ddd !important;
   }
   header .navbar.nav-toggle {
     right: 0;
@@ -270,6 +307,17 @@ header .navbar ul li a:hover {
 .home .btn:hover i {
   transform: translateX(5px);
 }
+/* Style pour la section Home */
+body.dark-mode .home {
+  background: #e48fecab;
+}
+body.dark-mode .home .btn {
+  background: #c747d28b;
+}
+body.dark-mode .home .content h2 {
+  color: #fff;
+}
+
 /* social icons  */
 .socials {
   position: relative;
@@ -318,6 +366,16 @@ header .navbar ul li a:hover {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
+
+/* Style pour les icônes de réseaux sociaux */
+body.dark-mode .social-icons a {
+  background-color: #222;
+}
+
+body.dark-mode .social-icons a:hover {
+  background-color: #555;
+}
+
 /* social icons end */
 
 /* hero media queries starts*/
@@ -435,6 +493,39 @@ header .navbar ul li a:hover {
 .resumebtn .btn:hover i {
   transform: translateX(5px);
 }
+
+/* Styles pour la section About */
+body.dark-mode .about {
+  background: #222;
+}
+body.dark-mode .about h2 {
+  color: #ddd;
+}
+body.dark-mode .about span {
+  color: #c747d28f;
+}
+body.dark-mode .about .row .content h3 {
+  color: #ddd;
+  font-size: 2.5rem;
+}
+body.dark-mode .about .row .content span {
+  color: #c747d2a0;
+}
+body.dark-mode .about .about-text {
+  color: #ddd;
+}
+body.dark-mode .resumebtn .btn {
+  color: #222;
+  background: #a506adba;
+}
+body.dark-mode .resumebtn .btn span {
+  color: #222 !important;
+}
+
+body.dark-mode .resumebtn .btn:hover {
+  background: #ddd;
+}
+
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
   .about .row .image {
@@ -513,6 +604,33 @@ header .navbar ul li a:hover {
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
+
+/* Styles pour la section Skills */
+body.dark-mode .skills {
+  background: #e48fecab;
+}
+body.dark-mode .skills h2 {
+  color: #444;
+}
+body.dark-mode .skills .heading span {
+  color: #c747d2a0;
+}
+body.dark-mode .skills .container {
+  background: #44444485;
+}
+body.dark-mode .skills h2 {
+  color: #fff;
+}
+
+body.dark-mode .skills .skill {
+  background: #444;
+  color: #fff;
+}
+
+body.dark-mode .skills .skill .skill-name {
+  color: #444;
+}
+
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
   .skills .container {
@@ -638,6 +756,26 @@ header .navbar ul li a:hover {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
+body.dark-mode .education {
+  background: #444;
+}
+body.dark-mode .education .box-container .box {
+  background-color: rgba(255, 255, 255, 0.439);
+}
+body.dark-mode .education h1 {
+  color: #ddd;
+}
+body.dark-mode .education span {
+  color: #c747d2a0;
+}
+
+body.dark-mode .education .box-container .box .content h3 {
+  color: #444;
+}
+
+body.dark-mode .education h4 {
+  color: #c747d2a0;
+}
 
 /* education media queries starts*/
 @media screen and (max-width: 600px) {
@@ -669,6 +807,143 @@ header .navbar ul li a:hover {
 }
 /* education media queries ends*/
 /* education section ends */
+
+/* experience section starts */
+.experience {
+  background-color: #e58fec;
+}
+.experience .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.experience .timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -2;
+}
+.experience .container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+/*circles on timeline*/
+.experience .container::after {
+  content: "\f0b1";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 100;
+  font-size: 1.89rem;
+  text-align: center;
+  font-weight: 600;
+  color: #252629;
+  font-family: "Font Awesome\ 5 Free";
+}
+.experience .left {
+  left: 0;
+}
+.experience .right {
+  left: 50%;
+}
+/* arrows pointing right */
+.experience .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+/* arrows pointing left  */
+.experience .right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+.experience .right::after {
+  left: -16px;
+}
+.experience .content {
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+.experience .content .tag {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+.experience .content .desc {
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+.experience .content .desc h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e58fec;
+}
+.experience .content .desc p {
+  font-size: 1.2rem;
+}
+.experience .heading span {
+  color: #cd46d9;
+}
+body.dark-mode .experience {
+  background: #e48fecab;
+}
+body.dark-mode .experience .timeline::after {
+  background: #444;
+}
+body.dark-mode .experience h2 {
+  color: #fff;
+}
+body.dark-mode .experience .heading span {
+  color: #c747d2a0;
+}
+body.dark-mode .experience .container::after {
+  background-color: #444;
+}
+body.dark-mode .experience .content {
+  background-color: #444;
+}
+body.dark-mode .experience .left::before {
+  border: medium solid #444;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #444;
+}
+body.dark-mode .experience .right::before {
+  border: medium solid #444;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #444 transparent transparent;
+}
+body.dark-mode .experience .container::after {
+  background-color: #444;
+  border: 4px solid #444;
+}
 
 /* work section starts */
 .work {
@@ -789,112 +1064,48 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
+body.dark-mode .work {
+  background: #444;
+}
+body.dark-mode .education .box-container .box {
+  background-color: rgba(255, 255, 255, 0.439);
+}
+body.dark-mode .work h2 {
+  color: #ddd;
+}
+body.dark-mode .work span {
+  color: #c747d2a0;
+}
+body.dark-mode .work .box-container .box .content {
+  background: #444;
+}
+body.dark-mode .work .box-container .box .content .tag {
+  background: #444;
+}
+
+body.dark-mode .work .viewall .btn {
+  color: #222;
+  background: #a506adba;
+  transition: 0.5s;
+}
+body.dark-mode .work .viewall .btn span {
+  color: #222 !important;
+}
+
+body.dark-mode .work .viewall .btn:hover {
+  background: #ddd;
+  color: #222;
+}
+body.dark-mode .work .desc .btns .btn {
+  color: #444;
+  background: #a506adba;
+}
+body.dark-mode .work .desc .btns .btn:hover {
+  background: #ddd;
+}
+
 /* work section ends */
 
-/* experience section starts */
-.experience {
-  background-color: #e58fec;
-}
-.experience .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.experience .timeline::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  background: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-  z-index: -2;
-}
-.experience .container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-/*circles on timeline*/
-.experience .container::after {
-  content: "\f0b1";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid white;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 100;
-  font-size: 1.89rem;
-  text-align: center;
-  font-weight: 600;
-  color: #252629;
-  font-family: "Font Awesome\ 5 Free";
-}
-.experience .left {
-  left: 0;
-}
-.experience .right {
-  left: 50%;
-}
-/* arrows pointing right */
-.experience .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-/* arrows pointing left  */
-.experience .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-.experience .right::after {
-  left: -16px;
-}
-.experience .content {
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
-}
-.experience .content .tag {
-  font-size: 1.3rem;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-}
-.experience .content .desc {
-  margin-left: 1.5rem;
-  padding-bottom: 1rem;
-}
-.experience .content .desc h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #e58fec;
-}
-.experience .content .desc p {
-  font-size: 1.2rem;
-}
-.experience .heading span {
-  color: #cd46d9;
-}
 /* view all button */
 .morebtn {
   display: flex;
@@ -1006,6 +1217,17 @@ header .navbar ul li a:hover {
 #contact-form {
   text-transform: none;
 }
+
+/* Styles pour la section Contact */
+body.dark-mode .contact {
+  background: #e48fecab;
+}
+body.dark-mode .contact h2 {
+  color: #ddd;
+}
+body.dark-mode .contact span {
+  color: #c747d2a0;
+}
 form .form-group {
   display: flex;
   flex-direction: column;
@@ -1110,6 +1332,29 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
+/* Style dar form */
+
+body.dark-mode .contact .contact-form input,
+body.dark-mode .contact .contact-form textarea {
+  background: #333;
+  color: #ddd;
+}
+.button-area button {
+  color: #fff;
+  background: #aa06ad;
+}
+
+body.dark-mode .button-area button {
+  color: #444;
+  background: #a506adba;
+}
+body.dark-mode .button-area button:hover {
+  background: #ddd;
+}
+body.dark-mode .button-area button i {
+  transition: 0.3s;
+  color: #444;
+}
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
@@ -1209,6 +1454,24 @@ form .button-area {
   color: #e58fec;
 }
 
+/* Autres sections spécifiques */
+body.dark-mode .footer {
+  background: #333;
+  color: #fff;
+}
+body.dark-mode .footer .box-container .box a {
+  color: #fff;
+}
+body.dark-mode .footer .box-container .box h3 {
+  color: #fff;
+}
+body.dark-mode .footer .box-container .box a:hover {
+  color: #a506adba;
+}
+body.dark-mode .footer .box-container .box .share a:hover {
+  color: #a506adba;
+}
+
 @-webkit-keyframes pound {
   to {
     transform: scale(1.1);
@@ -1265,4 +1528,26 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
+body.dark-mode #scroll-top {
+  background: #a506adba;
+  color: #444;
+}
 /* scroll top ends */
+/*style bouton mode*/
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#theme-toggle img {
+  width: 26px;
+  height: 26px;
+  transition: transform 0.3s ease;
+}
+
+#theme-toggle:hover img {
+  transform: scale(1.5); /* Agrandit légèrement l'image au survol */
+}
+/*style bouton mode ends*/
