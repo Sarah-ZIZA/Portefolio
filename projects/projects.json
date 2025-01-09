@@ -2,7 +2,7 @@
   {
     "name": "LPSF-clinique",
     "desc": "Ce site présente la Clinique LPFS, un établissement fictif créé dans le cadre de notre immersion professionnelle.Développé en collaboration avec Julien Gosselet",
-    "image": "../assets/images/projects/LPFS",
+    "image": "LPFS",
     "category": "AP",
     "links": {
       "view": "https://youtu.be/68iLVfyCFeI",
@@ -12,7 +12,7 @@
   {
     "name": "Fisher Collect",
     "desc": "Ce site vitrine marque mon tout premier projet en première année de BTS.Les images utilisées dans ce site vitrine sont uniquement à des fins illustratives pour ce projet pédagogique.",
-    "image": "../assets/images/projects/Sitevitrine",
+    "image": "Sitevitrine",
     "category": "TP",
     "links": {
       "view": "https://youtu.be/QNyNqcdtRVQ",
@@ -22,7 +22,7 @@
   {
     "name": "Mastermind",
     "desc": " TP Jeu Mastermind",
-    "image": "../assets/images/projects/Mastermind",
+    "image": "Mastermind",
     "category": "TP",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Mastermind/",
@@ -32,7 +32,7 @@
   {
     "name": "Jeux de Mémoire Symson",
     "desc": "Trouver tous les couples de cartes et la partie est gagnée",
-    "image": "../assets/images/projects/JeuxMemoire",
+    "image": "JeuxMemoire",
     "category": "js",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/carte/",
@@ -43,7 +43,7 @@
   {
     "name": "Univert_de_freyah",
     "desc": "Site Vitrine",
-    "image": "../assets/images/projects/Univert",
+    "image": "Univert",
     "category": "basicweb",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Univert_de_freyah/",
@@ -53,7 +53,7 @@
   {
     "name": "Casse_briques",
     "desc": "Jeu de casse Brique inspirer d'un Tuto",
-    "image": "../assets/images/projects/cassebrique",
+    "image": "cassebrique",
     "category": "js",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/cassebrique/",
@@ -64,7 +64,7 @@
   {
     "name": "La Diva",
     "desc": "Portefolio d'un mannequin",
-    "image": ".s./assets/images/projects/diva",
+    "image": "Sitevitrine",
     "category": "basicweb",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/ladiva/",
