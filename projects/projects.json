@@ -64,10 +64,20 @@
   {
     "name": "La Diva",
     "desc": "Portefolio d'un mannequin",
-    "image": "Sitevitrine",
+    "image": "diva",
     "category": "basicweb",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/ladiva/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Coworking-cambrai.com",
+    "desc": "Ce site vitrine presentant des espaces de coworking a la fois chaleur et innovant",
+    "image": "CoworkigClamart",
+    "category": "Stage",
+    "links": {
+      "view": "https://coworking-cambrai.com/",
       "code": ""
     }
   }
