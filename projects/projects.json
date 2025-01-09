@@ -80,5 +80,15 @@
       "view": "https://coworking-cambrai.com/",
       "code": ""
     }
+  },
+  {
+    "name": "Jeux d'apprentissage",
+    "desc": "Des carte en audio qui vous apprend des nouvelles choses",
+    "image": "parle",
+    "category": "js",
+    "links": {
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/langue/",
+      "code": ""
+    }
   }
 ]
