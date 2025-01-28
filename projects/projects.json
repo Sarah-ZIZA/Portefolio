@@ -90,5 +90,15 @@
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/langue/",
       "code": ""
     }
+  },
+  {
+    "name": "Calculatrice",
+    "desc": "Une calculatrice inspirer du modele iphone",
+    "image": "calculatrice",
+    "category": "js",
+    "links": {
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/calculatrice/",
+      "code": ""
+    }
   }
 ]
