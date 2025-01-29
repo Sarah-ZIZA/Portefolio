@@ -103,7 +103,7 @@ function showProjects(projects) {
     .forEach((project) => {
       projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -210,3 +210,51 @@ document.addEventListener("DOMContentLoaded", function () {
       );
     });
 });
+const toggleButton = document.getElementById("theme-toggle");
+const themeIcon = document.getElementById("theme-icon");
+const body = document.body;
+
+// Vérifie l'état du mode sombre dans le stockage local
+if (localStorage.getItem("theme") === "dark") {
+  body.classList.add("dark-mode");
+  themeIcon.src = "assets/images/moon.png"; // Icône de la lune pour le mode sombre
+  themeIcon.alt = "Mode sombre";
+} else {
+  body.classList.remove("dark-mode");
+  themeIcon.src = "assets/images/sun.png"; // Icône du soleil pour le mode clair
+  themeIcon.alt = "Mode clair";
+}
+
+// Lorsque le bouton est cliqué, bascule entre les modes
+toggleButton.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+
+  // Enregistre l'état du mode dans le stockage local
+  if (body.classList.contains("dark-mode")) {
+    localStorage.setItem("theme", "dark");
+    themeIcon.src = "assets/images/moon.png"; // Icône de la lune
+    themeIcon.alt = "Mode sombre";
+  } else {
+    localStorage.setItem("theme", "light");
+    themeIcon.src = "assets/images/sun.png"; // Icône du soleil
+    themeIcon.alt = "Mode clair";
+  }
+});
+// désactiver le mode développeur
+document.onkeydown = function (e) {
+  if (e.keyCode == 123) {
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0)) {
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)) {
+    return false;
+  }
+  if (e.ctrlKey && e.keyCode == "U".charCodeAt(0)) {
+    return false;
+  }
+};
