@@ -240,7 +240,6 @@ toggleButton.addEventListener("click", () => {
     themeIcon.alt = "Mode clair";
   }
 });
-<<<<<<< HEAD
 // désactiver le mode développeur
 document.onkeydown = function (e) {
   if (e.keyCode == 123) {
@@ -259,5 +258,3 @@ document.onkeydown = function (e) {
     return false;
   }
 };
-=======
->>>>>>> 417851f8aa1e51fe4a502b452ec1c353a8787145
