@@ -203,9 +203,21 @@ header .navbar ul li a:hover {
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  margin: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
 }
+.work .box-container .grid-item {
+  margin: 0;
+  padding: 0;
+}
+
+.isotope {
+  margin: 0 auto;
+}
+
 .work .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
