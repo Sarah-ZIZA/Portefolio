@@ -3,87 +3,62 @@
     "name": "Compétences_T",
     "icon": "https://img.icons8.com/fluency/48/whiteboard.png",
     "link": "Tableau_E4_ZIZA_KANGUE_Sarah.pdf",
-    "linkText": "Voir le tableau"
+    "linkText": "Voir"
   },
   {
-    "name": "Bootstrap",
-    "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-  },
-
-  {
-    "name": "HTML5",
-    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    "name": "Dévellopement web",
+    "icon": "https://img.icons8.com/nolan/64/backend-development.png",
+    "details": ["HTML", "CSS", "PHP", "JavaScript", "Bootstrap"]
   },
   {
-    "name": "CSS3",
-    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    "name": "Programation",
+    "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-programmer-mobile-app-development-flaticons-lineal-color-flat-icons-4.png",
+    "details": ["Python", "JAVA", "Algorithme"]
   },
   {
-    "name": "JavaScript",
-    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-  },
-  {
-    "name": "Java",
-    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    "name": "BDD",
+    "icon": "https://img.icons8.com/carbon-copy/64/search-database.png",
+    "details": ["My SQL", "MERISE", "SGBDR"]
   },
 
   {
-    "name": "PHP",
-    "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    "name": "Outils de versionnig",
+    "icon": "https://img.icons8.com/ios-filled/64/separate-document.png",
+    "details": ["GITHUB", "GIT"]
   },
   {
-    "name": "Python",
-    "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-  },
-
-  {
-    "name": "MySQL",
-    "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-  },
-
-  {
-    "name": "GitHub",
-    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-  },
-  { "name": "Git", "icon": "https://img.icons8.com/color/48/git.png" },
-  {
-    "name": "WordPress",
-    "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    "name": "Gestion de projets",
+    "icon": "https://img.icons8.com/nolan/64/project.png",
+    "details": ["GANTT", "PERT", "MPM", "marge variable", "point mort"]
   },
   {
-    "name": "Proxmox",
-    "icon": "https://img.icons8.com/fluency/48/proxmox.png"
+    "name": "CMS",
+    "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-cms-no-code-flaticons-flat-flat-icons.png",
+    "details": ["Wordpress"]
   },
   {
-    "name": "Sauvegarde",
-    "icon": "https://img.icons8.com/color/48/nas.png"
+    "name": "Réseau",
+    "icon": "https://img.icons8.com/laces/64/network.png",
+    "details": [
+      "Sauvegarde sur NAS",
+      "Création serveurs FTP(Linux, Windows)",
+      "wireshark",
+      "samba"
+    ]
   },
   {
-    "name": "Serveur<br> FTP",
-    "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-ftp-mobile-app-development-flaticons-lineal-color-flat-icons-2.png"
+    "name": "Cybersécurité",
+    "icon": "assets/images/skills/rgpd1.png",
+    "details": ["Certification RGPD et ANSSI", "Notions de cybertsécurité"],
+    "link": "Tableau_E4_ZIZA_KANGUE_Sarah.pdf",
+    "linkText": "Voir"
   },
   {
-    "name": "SAMBA <br> Serveur",
-    "icon": "https://img.icons8.com/external-creatype-filed-outline-colourcreatype/64/external-file-image-file-extension-creatype-filed-outline-colourcreatype-13.png"
-  },
-  {
-    "name": "wireshark",
-    "icon": "https://img.icons8.com/nolan/64/wireshark--v1.png"
-  },
-  {
-    "name": "Serveur <br> windows",
-    "icon": "https://img.icons8.com/pulsar-gradient/48/server-windows.png"
-  },
-  {
-    "name": "Windows",
-    "icon": "https://img.icons8.com/external-those-icons-flat-those-icons/48/external-Windows-logos-and-brands-those-icons-flat-those-icons.png"
-  },
-  {
-    "name": "SGBDR",
-    "icon": "https://img.icons8.com/fluency/48/database--v1.png"
-  },
-  {
-    "name": "Linux",
-    "icon": "https://img.icons8.com/external-those-icons-flat-those-icons/48/external-Linux-logos-and-brands-those-icons-flat-those-icons.png"
+    "name": "Bureautique et Veille Informatique",
+    "icon": "https://img.icons8.com/stickers/50/project-management.png",
+    "details": [
+      "Maîtrise des outils bureautiques",
+      "suivi des évolutions technologique"
+    ]
   }
 ]
