@@ -565,18 +565,20 @@ body.dark-mode .resumebtn .btn:hover {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 3rem;
   width: 90%;
   margin: auto;
   margin-top: 2rem;
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 .skills .container .bar {
+  text-align: center;
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
@@ -599,10 +601,25 @@ body.dark-mode .resumebtn .btn:hover {
   font-size: 4rem;
 }
 .skills .container .bar .info span {
+  color: rgb(27, 27, 27);
   font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
+  text-align: center;
+}
+.skills .container .bar .info a span {
+  color: #c747d2;
+}
+
+.skills .container .bar .info li {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  list-style: circle;
+  text-align: start;
+  margin-left: 20px;
 }
 
 /* Styles pour la section Skills */
@@ -630,6 +647,15 @@ body.dark-mode .skills .skill {
 body.dark-mode .skills .skill .skill-name {
   color: #444;
 }
+body.dark-mode .skills .container .bar .info span {
+  color: #fff;
+}
+body.dark-mode .skills .container .bar .info a span {
+  color: #c747d2a0;
+}
+body.dark-mode .skills .container .bar .info li {
+  color: rgb(27, 27, 27);
+}
 
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
@@ -638,7 +664,7 @@ body.dark-mode .skills .skill .skill-name {
     margin: 0;
   }
   .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
@@ -646,6 +672,9 @@ body.dark-mode .skills .skill .skill-name {
   .skills .container {
     margin-top: 5px;
     width: 100%;
+  }
+  .skills .container .bar .info ul li {
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -669,8 +698,8 @@ body.dark-mode .skills .skill .skill-name {
 
   .skills .container .row {
     grid-template-columns: repeat(
-      3,
-      1fr
+      auto-fit,
+      minmax(250px, 1fr)
     ); /* Exemple : 3 colonnes pour cette taille d'écran */
     margin: 1rem;
     padding: 2rem 0.5rem 2rem 0.5rem;
@@ -1184,6 +1213,9 @@ body.dark-mode .work .desc .btns .btn:hover {
 .contact {
   background: #e58fec;
   min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact .container {
   text-transform: none;
