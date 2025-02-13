@@ -76,19 +76,26 @@ function showSkills(skills) {
 
   skills.forEach((skill) => {
     skillHTML += `
-      <div class="bar">
-        <div class="info">
-          <img src="${skill.icon}" alt="skill" />
-          <span>${skill.name}</span>`;
+    <div class="bar">
+      <div class="info">
+        <img src="${skill.icon}" alt="skill" />
+        <span>${skill.name}</span>`;
 
-    // Ajout du lien seulement si la compétence en possède un
+    if (skill.details && skill.details.length > 0) {
+      skillHTML += `<ul>`;
+      skill.details.forEach((detail) => {
+        skillHTML += `<li>${detail}</li>`;
+      });
+      skillHTML += `</ul>`;
+    }
+
     if (skill.link) {
       skillHTML += `<a href="${skill.link}"><span>${skill.linkText}</span></a>`;
     }
 
     skillHTML += `
-        </div>
-      </div>`;
+      </div>
+    </div>`;
   });
 
   skillsContainer.innerHTML = skillHTML;
