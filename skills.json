@@ -46,11 +46,11 @@
       "samba"
     ]
   },
-  {
+   {
     "name": "Cybersécurité",
     "icon": "assets/images/skills/rgpd1.png",
     "details": ["Certification RGPD et ANSSI", "Notions de cybertsécurité"],
-    "link": "Tableau_E4_ZIZA_KANGUE_Sarah.pdf",
+    "link": "Attestations.pdf",
     "linkText": "Voir"
   },
   {
