@@ -28,40 +28,7 @@
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Mastermind/",
       "code": ""
     }
-  },
-  {
-    "name": "Jeux de Mémoire Symson",
-    "desc": "Trouver tous les couples de cartes et la partie est gagnée",
-    "image": "JeuxMemoire",
-    "category": "js",
-    "links": {
-      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/carte/",
-      "code": ""
-    }
-  },
-
-  {
-    "name": "Univert_de_freyah",
-    "desc": "Site Vitrine",
-    "image": "Univert",
-    "category": "basicweb",
-    "links": {
-      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Univert_de_freyah/",
-      "code": ""
-    }
-  },
-  {
-    "name": "Casse_briques",
-    "desc": "Jeu de casse Brique inspirer d'un Tuto",
-    "image": "cassebrique",
-    "category": "js",
-    "links": {
-      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/cassebrique/",
-      "code": ""
-    }
-  },
-
-  {
+  },{
     "name": "La Diva",
     "desc": "Portefolio d'un mannequin",
     "image": "diva",
@@ -78,16 +45,6 @@
     "category": "Stage",
     "links": {
       "view": "https://coworking-cambrai.com/",
-      "code": ""
-    }
-  },
-  {
-    "name": "Jeux d'apprentissage",
-    "desc": "Des carte en audio qui vous apprend des nouvelles choses",
-    "image": "parle",
-    "category": "js",
-    "links": {
-      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/langue/",
       "code": ""
     }
   },
