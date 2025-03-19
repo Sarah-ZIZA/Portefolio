@@ -42,8 +42,8 @@
     "details": [
       "Sauvegarde sur NAS",
       "Création serveurs FTP(Linux, Windows)",
-      "wireshark",
-      "samba"
+      "Wireshark",
+      "Samba"
     ]
   },
    {
@@ -58,7 +58,7 @@
     "icon": "https://img.icons8.com/stickers/50/project-management.png",
     "details": [
       "Maîtrise des outils bureautiques",
-      "suivi des évolutions technologique"
+      "Suivi des évolutions technologique"
     ]
   }
 ]
