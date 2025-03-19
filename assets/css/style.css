@@ -400,7 +400,7 @@ body.dark-mode .social-icons a:hover {
     font-size: 2.2rem;
   }
 }
-/* hero media queries ends*/
+
 /* fin Ma section  */
 
 /* about section starts */
@@ -420,11 +420,11 @@ body.dark-mode .social-icons a:hover {
 }
 .about .row .image img {
   margin: 4rem;
-  width: 30rem;
+  /* width: 30rem; */
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   transition: 0.3s;
   cursor: pointer;
 }
@@ -434,19 +434,22 @@ body.dark-mode .social-icons a:hover {
 .about .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .about .row .content h3 {
   color: rgb(27, 27, 27);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 .about .row .content .tag {
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
 }
 .about .row .content p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
@@ -470,7 +473,7 @@ body.dark-mode .social-icons a:hover {
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 4em;
   transition: 0.3s;
   color: #fff;
   background: #a506ad;
@@ -609,6 +612,9 @@ body.dark-mode .resumebtn .btn:hover {
   text-align: center;
 }
 .skills .container .bar .info a span {
+  color: #fff;
+}
+.skills .container .bar .info a span:hover {
   color: #c747d2;
 }
 
@@ -1039,6 +1045,7 @@ body.dark-mode .experience .container::after {
 }
 .work .desc p {
   font-size: 1.5rem;
+  text-transform: none;
 }
 .work .desc .btns {
   display: flex;
@@ -1050,7 +1057,7 @@ body.dark-mode .experience .container::after {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
-  border-radius: 0.5rem;
+  border-radius: 4rem;
   font-size: 1.5rem;
   color: #fff;
   background: #c747d2;
@@ -1068,7 +1075,7 @@ body.dark-mode .experience .container::after {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 4em;
   transition: 0.5s;
   color: #fff;
   font-weight: 700;
@@ -1332,13 +1339,25 @@ form .button-area {
   float: right;
   flex-direction: row-reverse;
 }
+form .checkbox {
+  margin: 1rem;
+}
+.checkbox label {
+  font-size: 1.5em;
+  text-transform: none;
+}
+.contact .container p {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: center;
+}
 .button-area button {
   color: #fff;
   border: none;
   outline: none;
   font-size: 1.8rem;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 4em;
   padding: 13px 25px;
   background: #aa06ad;
   box-shadow: 0px 5px 10px rgba(69, 70, 75, 0.66);
