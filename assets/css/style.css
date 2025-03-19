@@ -626,6 +626,7 @@ body.dark-mode .resumebtn .btn:hover {
   list-style: circle;
   text-align: start;
   margin-left: 20px;
+  text-transform: none;
 }
 
 /* Styles pour la section Skills */
