@@ -32,9 +32,9 @@
     "details": ["GANTT", "PERT", "MPM", "marge variable", "point mort"]
   },
   {
-    "name": "CMS",
-    "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-cms-no-code-flaticons-flat-flat-icons.png",
-    "details": ["Wordpress"]
+    "name": "Travail d'équipe",
+    "icon": "https://img.icons8.com/ios/50/student-activity.png",
+    "details": ["Pendant mon BTS SIO, j'ai pu développer ma capacité à travailler en équipe lors des ateliers professionnels, ainsi que lors de mes stages en entreprise."]
   },
   {
     "name": "Réseau",
