@@ -267,6 +267,7 @@ header .navbar ul li a:hover {
 }
 .work .desc p {
   font-size: 1.5rem;
+  text-transform: none;
 }
 .work .desc .btns {
   display: flex;
