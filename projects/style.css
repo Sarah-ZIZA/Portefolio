@@ -278,7 +278,7 @@ header .navbar ul li a:hover {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
-  border-radius: 0.5rem;
+  border-radius: 4rem;
   font-size: 1.5rem;
   color: #fff;
   background: #c747d2;
@@ -312,7 +312,7 @@ header .navbar ul li a:hover {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 4em;
   transition: 0.3s;
   color: #fff;
 
