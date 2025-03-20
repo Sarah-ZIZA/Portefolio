@@ -8,6 +8,15 @@
       "view": "https://youtu.be/68iLVfyCFeI",
       "code": ""
     }
+  },  {
+    "name": "AP BTS1SIO",
+    "desc": "Compte rendu de l'AP Mission 8",
+    "image": "LPFS",
+    "category": "AP",
+    "links": {
+      "view": "TP2023/MISSION_8.pdf",
+      "code": ""
+    }
   },
   {
     "name": "Fisher Collect",
@@ -55,6 +64,177 @@
     "category": "js",
     "links": {
       "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/calculatrice/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Virtualisation",
+    "desc": "Découvert et premier pas vers la virtualisation.",
+    "image": "virtualisation",
+    "category": "TPB1",
+    "links": {
+      "view": "https://www.youtube.com/watch?v=APT-FiWuI34",
+      "code": ""
+    }
+  },
+  {
+    "name": "Mise en oeuvre d'un réseau",
+    "desc": "Communications entre deux machines",
+    "image": "réseaux",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/TP_réseau.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Service FTP",
+    "desc": " Installation et prise en mains des services FTP",
+    "image": "ftp",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/Création_d’un_serveur_FTP.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Wireshark",
+    "desc": " Analyse et capture de trames réseaux",
+    "image": "wireshark",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/wireshark.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Découverte windows serveur",
+    "desc": "Prise en man de windows serveur",
+    "image": "réseau",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/TP1_TP2_windows_serveur.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Gestion des dépôts Linux",
+    "desc": " Gestion des dépots sur linux",
+    "image": "dépots",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/Gestion_des_depôts.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "SAMBA",
+    "desc": "Installation et découverte de Samba",
+    "image": "samba",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/samba.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Sauvegarde NAS",
+    "desc": "Mise en place d'une solution de Sauvergarde",
+    "image": "sauvegarde",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/Sauvegarde_&_NAS.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "DNS",
+    "desc": "Découverte et compréhension DNS",
+    "image": "dns",
+    "category": "TPB1",
+    "links": {
+      "view": "../TP2023/DNS.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Java création d'une calculatrice",
+    "desc": "Prise en mains de java et traveaux pratique",
+    "image": "calculatricejava",
+    "category": "TPB2",
+    "links": {
+      "view": "../TP2023/JAVA_Calculatrice.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Gestion des contacts",
+    "desc": "Création d'un outil de gestion de contacts en langage Java",
+    "image": "contacts",
+    "category": "TPB2",
+    "links": {
+      "view": "../TP2023/Gestion_des_contacts.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Génération de QRcode",
+    "desc": "Création d'un outils de générations de QRcode et PDF en JAVA",
+    "image": "Qrcode",
+    "category": "TPB2",
+    "links": {
+      "view": "../TP2023/Génération_QRcode_JAVA.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Mastermind",
+    "desc": " TP Jeu Mastermind",
+    "image": "Mastermind",
+    "category": "TPB2",
+    "links": {
+      "view": "https://sarah-ziza.github.io/Univert_de_freyah.github/Mastermind/",
+      "code": ""
+    }
+  },
+
+  {
+    "name": "BYOD",
+    "desc": "Qu'est-ce que le BYOD",
+    "image": "byod",
+    "category": "TPB3",
+    "links": {
+      "view": "../TP2023/TP-BYOD.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Charte Informatique",
+    "desc": "Mise en place d'une charte informatique",
+    "image": "charte",
+    "category": "TPB3",
+    "links": {
+      "view": "../TP2023/TP-Charte.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Chiffrement",
+    "desc": "Les types de chiffrement",
+    "image": "chiffrement",
+    "category": "TPB3",
+    "links": {
+      "view": "../TP2023/B3-chiffrement-1.pdf",
+      "code": ""
+    }
+  },
+  {
+    "name": "Gestions des accès et privilège",
+    "desc": "Gérer des accès sur Windows Server",
+    "image": "accès",
+    "category": "TPB3",
+    "links": {
+      "view": "../TP2023/Gestion_des_accès.pdf",
       "code": ""
     }
   }
